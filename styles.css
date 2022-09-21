@@ -1,0 +1,122 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;          
+}
+
+body {
+    background: #fafafa;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vw;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display: flex;
+}
+
+
+.home-phone {
+    width: 450px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
+    padding: 50px;
+    
+
+}
+
+
+.container-itens {
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+input {
+    height: 36px;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-top: 5px;
+    color: #262626;
+ 
+
+}
+.inst-logo {
+    margin-bottom: 20px;
+    width: 182px;
+    text-align: center;
+   
+}
+
+.login-facebook {
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+   
+
+}
+.container-cad{
+    text-align: center;
+    font-size: 15px;
+    margin: 15px;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid #e7e7e7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+.cad{
+    color: #0095f6;
+    cursor: pointer;
+   font-size: 14px;
+   margin-left: 10px;
+   font-weight: bolder;
+}
+.app{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container-app{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    
+}
+.logo-store{
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+     justify-content: center;
+    align-items: center;
+}
